@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sourcey.materiallogindemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Normal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Boaerd_Education"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Board_VC"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_IT.Deparment_Information_Technology"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".News.News"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Academic.Institution_academic"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Academic.Institution_Academic_Bilateral"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Academic.Institution_Academic_Data"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Academic.Institution_Academic_Course"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Academic.Institution_Academic_Evaluate"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Academic.Institution_Academic_Library"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Academic.Institution_Academic_Teaching"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Plan.Institution_Plan"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Plan.Institution_Plan_Cooperation"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Plan.Institution_Plan_Data"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Plan.Institution_Plan_Datainformation"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Plan.Institution_Plan_Develop"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Plan.Institution_Plan_Insurance"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Plan.Institution_Plan_Plan"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Plan.Institution_Plan_Sale"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource_Account"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource_Data"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource_Finance"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource_General"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource_Information"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource_Location"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource_People"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource_Registration"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Resource.Institution_Resource_Supplies"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Student.Institution_Student"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Student.Institution_Student_Activities"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Student.Institution_Student_Data"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Student.Institution_Student_Guide"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Student.Institution_Student_Project"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Student.Institution_Student_Rule"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Student.Institution_Student_Security"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Institution.Institution_Student.Institution_Student_Taecher"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Food.Deparment_Food_Food"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Food.Deparment_Food_Home"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Food.Deparment_Food_Fashion"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Travel.Deparment_Travel_Hotelservices"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Travel.Deparment_Travel_Businesshotel"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Art.Deparment_Art_Art"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Art.Deparment_Art_Comdesign"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Art.Deparment_Art"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Food.Deparment_Food"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Travel.Deparment_Travel"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Business.Deparment_Business_Account"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Business.Deparment_Business_Businesscom"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Business.Deparment_Business_Market"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Business.Deparment_Business_Manage"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Business.Deparment_Business"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Business.Deparment_Business_Retail"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Business.Deparment_Business_Office"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Basic.Deparment_Basic"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Basic.Deparment_Bacis_English"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Basic.Deparment_Basic_Thai"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Basic.Deparment_Basic_Science"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Basic.Deparment_Basic_Math"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Basic.Deparment_Basic_Social"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".Deparment.Deparment_Basic.Deparment_Basic_Health"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data_KVC"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data_Student"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data_People"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data_Course"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data_Building"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data_Articles"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data_Abudget"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data_Social"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".About_Vocational_College.About_Vocational_Data.About_Vocational_Data_Market"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".News.News_Information.News_Information_1"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".News.News_Information.News_Information_2"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".News.News_Information.News_Information_3"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".News.News_Today.News_Today_1"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".News.News_Today.News_Today_2"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".News.News_Today.News_Today_3"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".MainFragment"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".UserActivity"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".FragmentGeneraluser"
+            android:theme="@style/AppTheme.Normal" />
+        <activity
+            android:name=".ContactActivity"
+            android:theme="@style/AppTheme.Normal"></activity>
+    </application>
+
+</manifest>

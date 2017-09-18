@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KVC APP</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="news1">รางวัลความประพฤติดี จากพุทธสมาคมแห่งประเทศไทย ในพระบรมราชูปถัมภ์</string>
+    <string name="date1">วันพฤหัสบดี, 29 มิถุนายน 2560</string>
+    <string name="news2">ประเมินการจัดสถานที่เรียนรู้เทคโนโลยีฯ ภาคตะวันออกเฉียงเหนือ</string>
+    <string name="date2">วันพฤหัสบดี, 29 มิถุนายน 2560</string>
+    <string name="news3">โครงการจำหน่ายสินค้าภายใต้โครงการเทศ</string>
+    <string name="date3">วันพุธ, 28 มิถุนายน 2560</string>
+    <string name="news4">ศูนย์บ่มเพาะ วิทยาลัยอาชีวศึกษาขอนแก่น</string>
+    <string name="date4">วันอังคาร, 29 สิงหาคม 2560์</string>
+    <string name="news5">การประเมินสถานที่เรียนรู้เทคโนโลยีเฉพาะทางอาชีวศึกษา รอบตัดสิน ระดับ...</string>
+    <string name="date5">วันพฤหัสบดี, 15 มิถุนายน 2560</string>
+    <string name="news6">กิจกรรมเข้าแถวเคารพธงชาติ ประจำวันอังคาร ที่ 13 มิถุนายน 2560</string>
+    <string name="date6">วันอังคาร, 13 มิถุนายน 2560</string>
+</resources>
